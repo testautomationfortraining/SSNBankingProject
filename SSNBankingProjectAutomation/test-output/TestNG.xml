@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SSN Banking Suite">
+	
+	<test name="SSN Banking Tests">
+		<classes>
+			<class name="com.ssnbanking.qa.testcases.LoginPageTest" />
+			<class name="com.ssnbanking.qa.testcases.HomePageTest" />
+			<class name="com.ssnbanking.qa.testcases.DeleteCustomerPageTestCase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

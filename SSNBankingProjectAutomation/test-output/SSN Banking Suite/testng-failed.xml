@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SSN Banking Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SSN Banking Tests(failed)">
+    <classes>
+      <class name="com.ssnbanking.qa.testcases.DeleteCustomerPageTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="deleteTheCustomer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ssnbanking.qa.testcases.DeleteCustomerPageTestCase -->
+    </classes>
+  </test> <!-- SSN Banking Tests(failed) -->
+</suite> <!-- Failed suite [SSN Banking Suite] -->
